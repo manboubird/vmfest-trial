@@ -1,0 +1,10 @@
+{:dev-base {:description "CentOS 5.5 (64bit)"
+                          :uuid "VID_UUID"
+                          :os-type-id "RedHat"
+                          :os-version "5.5"
+                          :username "USER"
+                          :password "PWD"
+                          :os-family :centos
+                          :os-64-bit true
+                          :no-sudo false
+                          :sudo-password "SUDO_PWD"}}
