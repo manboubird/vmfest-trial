@@ -2,7 +2,7 @@
 
 Just a personal trial project for vmfest.
 
-Instruction below:
+Instruction below includes:
 - clone a vdi 
 - manipulate image of the vdi on repl.
 
@@ -25,7 +25,7 @@ $ VBoxManage setproperty websrvauthlibrary null
 $ vboxwebsrv -t0
 ```
 
-### vmfest setup
+## vmfest setup
 
 Clone project
 
