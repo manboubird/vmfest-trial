@@ -1,18 +1,22 @@
 # vmfest-trial
 
-just a trial project for vmfest.
+Just a personal trial project for vmfest.
+
+Instruction below:
+- clone a vdi 
+- manipulate image of the vdi on repl.
 
 ## Requirement
 
-[Leiningen](https://github.com/technomancy/leiningen)
-[vmfest v 0.2.3](https://github.com/tbatchelli/vmfest)
+- [Leiningen](https://github.com/technomancy/leiningen)
+- [vmfest v 0.2.3](https://github.com/tbatchelli/vmfest)
 
 ## Virtual box server setup
 
 ```
 # virtual box version must be VirtualBox 4.0x
-$ VBoxManage  -v
-4.0.6r71344
+$ VBoxManage -v
+4.0.XXX
 
 # turn off authentication
 $ VBoxManage setproperty websrvauthlibrary null
@@ -26,7 +30,7 @@ $ vboxwebsrv -t0
 Clone project
 
 ```
-$ git clone {REPO}
+$ git clone https://github.com/manboubird/vmfest-trial.git
 ```
 
 Clone image and create meta file as vmfest preparation.
@@ -38,7 +42,7 @@ $ mkdir -p ~/vmfest/models
 # UUID is produced when cloning vdi is completed.
 $ VBoxManage clonehd /path/to/dev-base.vdi ~/vmfest/models/dev-base.vdi
 
-# keep uuid in file.
+ç # keep uuid in file.
 $ echo "PRODUCED_UUID" > ~/vmfest/models/dev-base.vdi.uuid
 
 # show hdds with uuid.
